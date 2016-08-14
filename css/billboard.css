@@ -1,0 +1,109 @@
+.clickable{
+	cursor:pointer;
+}
+
+.shadowed{
+ -webkit-box-shadow: 3px 3px 23px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 23px 0px rgba(50, 50, 50, 0.75);
+		 box-shadow:         3px 3px 23px 0px rgba(50, 50, 50, 0.75);	
+}
+
+body{
+}
+
+
+
+.view{
+    text-align: center;
+}
+
+
+.messages{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.message-box{
+    border: 3px solid #00b7ef;
+    border-radius: 3px;
+    position: relative;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.edit-mode .message-box{
+    border: 3px dashed #00b7ef;
+    margin-bottom: 0px; 
+}
+
+textarea{
+    width:100%;
+    height:100px;
+}
+
+.message-date{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    font-family: 'Poiret One', cursive;
+    top: -10px;
+    left: 22px;
+    padding: 0px 10px;
+}
+
+ .message-title{
+    font-family:Anton;
+    color:#00b7ef;
+    font-size:30px;
+    text-align: left;
+    margin: 20px;
+}
+
+ .message-text{
+    font-family: Arial;
+    font-size: 16px;
+    text-align: left;
+    color: #c1bfc0;
+    margin: 0px 20px;
+}
+
+ .message-author{
+    text-align: right;
+    padding: 20px;
+    font-size:24px;
+    font-family:'Pinyon Script', cursive;
+}
+
+
+.title{
+    text-align: center;
+    font-family:Anton;
+    color:black;
+    padding:20px;
+    font-size:40px;
+}
+
+.add-message-holder{
+    margin: 15px;
+    border-style: dashed;
+    border-width: 1px;
+    margin-left: auto;
+    padding: 10px 0px;
+    max-width: 800px;
+    margin-right: auto;
+}
+
+.add-msg-btn{
+    padding: 10px 40px;
+    color: white;
+    background-color: #66CDAA;
+    border-radius: 3px;
+}
+
+.no{
+        font-family: Arial;
+    font-size: 24px;
+    margin: 40px;
+}
